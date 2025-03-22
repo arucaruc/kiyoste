@@ -1,0 +1,60 @@
+/* ===== ボックスサイズを統一（全体適用） ===== */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* ===== ベーススタイル ===== */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", "Yu Gothic", sans-serif;
+  background-color: #f5f5f5;  /* 背景色を灰色に設定 */
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ===== 共通レイアウトラッパー ===== */
+.content-wrapper {
+  max-width: 800px;
+  margin: 1rem auto;
+  padding: 2rem;  /* = 32px */
+  background-color: #ffffff;  /* 白背景 */
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+  box-sizing: border-box;
+}
+
+/* footer本体 */
+footer.footer {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #ccc;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.footer-links {
+  margin-top: 0.5rem;
+}
+
+.footer-links a {
+  margin: 0 0.5rem;
+  color:#3366cc;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+  color: #003399;
+}
+
+/* レスポンシブ対応（スマホ） */
+@media screen and (max-width: 768px) {
+  .content-wrapper {
+    max-width: 95%;
+    padding: 1rem;
+  }
+}

@@ -1,0 +1,104 @@
+/* ヘッダー全体 */
+.blog-header {
+  width: 100%;
+  height: 200px;
+  background-color:#f5f5f5;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+/* 中央寄せコンテナ */
+.header-inner {
+  width: 800px;
+  margin: 0 auto;
+  position: relative;
+  border: 2px solid #ccc; /* 枠線の色と太さ */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* 少し立体感のある影 */
+  border-radius: 8px; /* 角を少し丸めたい場合（任意） */
+}
+
+/* ヘッダーリンク */
+.header-link {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 200px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 横並び画像（左右） */
+.header-container {
+  display: flex;
+  width: 100%;
+  height: 200px;
+  position: relative;
+  z-index: 1;
+}
+
+/* オーバーレイ影 */
+.header-img-left::after,
+.header-img-right::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.3) 100%);
+  z-index: 2;
+  pointer-events: none;
+}
+
+/* タイトル画像（C・D）← header-inner内で相対配置・中央ブロックに左寄せ配置 */
+.header-img-title_1,
+.header-img-title_2 {
+  position: absolute;
+  left: 20px;
+  z-index: 3;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left top;
+  filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.5));
+  display: block;
+}
+
+/* タイトル画像C */
+.header-img-title_1 {
+  top: 20px;
+  width: 400px;
+  height: 73px;
+  background-image: url("header_source/image_C_ver1.png");
+}
+
+/* タイトル画像D */
+.header-img-title_2 {
+  top: 105px;
+  width: 400px;
+  height: 60px;
+  background-image: url("header_source/image_D_ver2.png");
+}
+
+/* 左画像 */
+.header-img-left {
+  width: 200px;
+  height: 200px;
+  background-image: url("header_source/image_A.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* 右画像 */
+.header-img-right {
+  width: 604px;
+  height: 200px;
+  background-image:
+    url("header_source/image_2021.png"),
+    url("header_source/image_B.jpg");
+  background-size: cover, cover;
+  background-repeat: no-repeat, no-repeat;
+  background-position: center, center;
+  position: relative; /* ←オーバーレイ用 */
+}

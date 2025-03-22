@@ -1,0 +1,227 @@
+{
+    "Illustration": {
+      "title": "イラスト",
+      "articles": [
+        {
+          "title": "イラストの続け方",
+          "filename": "Illustration_1.html"
+        },
+        {
+          "title": "イラストの始め方",
+          "filename": "Illustration_2.html"
+        }
+      ]
+    },
+    "Stock_investment": {
+      "title": "株式投資",
+      "articles": [
+        {
+          "title": "株式投資の始め方",
+          "filename": "Stock_investment_1.html"
+        },
+        {
+          "title": "銘柄の選び方",
+          "filename": "Stock_investment_2.html"
+        },
+        {
+          "title": "借金を負わない投資の仕方",
+          "filename": "Stock_investment_3.html"
+        },
+        {
+          "title": "心の置き方",
+          "filename": "Stock_investment_4.html"
+        }
+      ]
+    },
+    "Strength_training": {
+      "title": "筋トレ",
+      "articles": [
+        {
+          "title": "成長を感じる筋トレの仕方",
+          "filename": "Strength_training_1-1.html",
+          "subdir": "Strength_training_1"
+        },
+        {
+          "title": "谷間のある胸筋の作り方",
+          "filename": "Strength_training_2.html"
+        },
+        {
+          "title": "逆三角の広背筋の作り方",
+          "filename": "Strength_training_3.html"
+        },
+        {
+          "title": "太い首の作り方",
+          "filename": "Strength_training_4.html"
+        },
+        {
+          "title": "腕立て伏せの始め方",
+          "filename": "Strength_training_5.html"
+        },
+        {
+          "title": "懸垂の始め方",
+          "filename": "Strength_training_6.html"
+        },
+        {
+          "title": "プロテインの飲み方",
+          "filename": "Strength_training_7.html"
+        }
+      ]
+    },
+    "Martial_Arts": {
+      "title": "格闘技",
+      "articles": [
+        {
+          "title": "総合格闘技、キックボクシングの始め方",
+          "filename": "Martial_Arts_1.html"
+        },
+        {
+          "title": "シャドーの仕方",
+          "filename": "Martial_Arts_2.html"
+        },
+        {
+          "title": "逆三角の広背筋の作り方",
+          "filename": "Martial_Arts_3.html"
+        },
+        {
+          "title": "パンチの仕方",
+          "filename": "Martial_Arts_4.html"
+        },
+        {
+          "title": "キックの仕方",
+          "filename": "Martial_Arts_5.html"
+        },
+        {
+          "title": "タックルの仕方",
+          "filename": "Martial_Arts_6.html"
+        },
+        {
+          "title": "投げ方",
+          "filename": "Martial_Arts_7.html"
+        },
+        {
+          "title": "寝技の攻め方と守り方",
+          "filename": "Martial_Arts_7.html"
+        },
+        {
+          "title": "怪我との向き合い方",
+          "filename": "Martial_Arts_7.html"
+        }
+      ]
+    },
+    "Scuba_Diving": {
+      "title": "スキューバダイビング",
+      "articles": [
+        {
+          "title": "スキューバダイビングの始め方",
+          "filename": "Scuba_Diving_1.html"
+        }
+      ]
+    },
+    "Snowboarding": {
+      "title": "スノーボード",
+      "articles": [
+        {
+          "title": "スノーボードの始め方",
+          "filename": "Snowboarding_1.html"
+        }
+      ]
+    },
+    "Custom_PC": {
+      "title": "自作PC",
+      "articles": [
+        {
+          "title": "自作PCの作り方",
+          "filename": "Custom_PC_1.html"
+        }
+      ]
+    },
+    "Programming": {
+      "title": "プログラミング",
+      "articles": [
+        {
+          "title": "どんな職場で使えるプログラム（Excelマクロ）",
+          "filename": "Programming_1.html"
+        },
+        {
+          "title": "どんな職場で使えるプログラム（コマンドプロンプト）",
+          "filename": "Programming_2.html"
+        },
+        {
+          "title": "どんな職場で使えるプログラム（Power Shell）",
+          "filename": "Programming_3.html"
+        }
+      ]
+    },
+    "Gadgets": {
+      "title": "ガジェット",
+      "articles": [
+        {
+          "title": "AliExpressの始め方",
+          "filename": "Gadgets_1.html"
+        },
+        {
+          "title": "偽装メモリの見抜き方",
+          "filename": "Gadgets_2.html"
+        },
+        {
+          "title": "ホームルーターの始め方",
+          "filename": "Gadgets_3.html"
+        },
+        {
+          "title": "Webミーティングの始め方",
+          "filename": "Gadgets_3.html"
+        }
+      ]
+    },
+    "Electrical_work": {
+      "title": "電子工作",
+      "articles": [
+        {
+          "title": "電子工作の始め方",
+          "filename": "Electrical_work_1.html"
+        },
+        {
+          "title": "LED装飾の始め方",
+          "filename": "Electrical_work_2.html"
+        },
+        {
+          "title": "USBからの電源の取り方",
+          "filename": "Electrical_work_3.html"
+        },
+        {
+          "title": "回路キット合体のし方",
+          "filename": "Electrical_work_3.html"
+        }
+      ]
+    },
+    "Camera": {
+      "title": "カメラ",
+      "articles": [
+        {
+          "title": "一眼レフの始め方",
+          "filename": "Camera_1.html"
+        },
+        {
+          "title": "水中カメラの始め方",
+          "filename": "Camera_2.html"
+        }
+      ]
+    },
+    "Car": {
+      "title": "クルマ",
+      "articles": [
+        {
+          "title": "タイヤ交換の始め方",
+          "filename": "Car_1.html"
+        },
+        {
+          "title": "エンジンオイル交換の始め方",
+          "filename": "Car_2.html"
+        },
+        {
+          "title": "ECUモニタリングの始め方",
+          "filename": "Car_3.html"
+        }
+      ]
+    }
+}

@@ -1,0 +1,103 @@
+/* ===== 基本設定（個別指定） ===== */
+.article-page {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+    box-sizing: border-box;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+  line-height: 1.8;
+  color: #333;
+  font-family: "Helvetica Neue", "Yu Gothic", sans-serif;
+}
+
+/* ===== 記事タイトル（h1） ===== */
+.article-page h1 {
+  font-size: 2rem;
+  margin-top:2rem;
+  margin-bottom: 1.5rem;
+  border-left: 6px solid #0077cc;
+  padding-left: 0.75rem;
+  box-sizing: border-box;          /* ←サイズ制御のため追加 */
+  max-width: 100%;                 /* ←はみ出し防止 */
+  overflow-wrap: break-word;      /* ←改行対応（長いタイトル対策） */
+}
+
+/* ===== セクション見出し（h2） ===== */
+.article-page h2 {
+  font-size: 1.5rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 0.3rem;
+}
+
+/* ===== 小見出し（h3） ===== */
+.article-page h3 {
+  font-size: 1.2rem;
+  margin-top: 2.5rem;
+  margin-bottom: 0.75rem;
+  color: #555;
+}
+
+/* ===== 段落（p） ===== */
+.article-page p {
+  margin-bottom: 1.2rem;
+  font-size: 1rem;
+}
+
+/* ===== リスト ===== */
+.article-page ul {
+  padding-left: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.article-page ul li {
+  list-style-type: disc;
+  margin-bottom: 0.5rem;
+}
+
+/* ===== 画像 ===== */
+.article-page img {
+  max-width: 100%;
+  height: auto;
+  margin: 1.5rem 0;
+  display: block;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.08);
+}
+
+/* ===== リンク ===== */
+.article-page a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+.article-page a:hover {
+  text-decoration: underline;
+}
+
+/* ===== レスポンシブ対応 ===== */
+@media screen and (max-width: 768px) {
+  .article-page {
+    max-width: 95%;
+    padding: 1rem;
+  }
+
+  .article-page h1 {
+    font-size: 1.5rem;
+  }
+
+  .article-page h2 {
+    font-size: 1.3rem;
+  }
+
+  .article-page h3 {
+    font-size: 1.1rem;
+  }
+
+  .article-page p {
+    font-size: 0.95rem;
+  }
+}
