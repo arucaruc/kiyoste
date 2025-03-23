@@ -13,7 +13,7 @@
 }
 
 /* ===== 記事タイトル（h1） ===== */
-body .article-page h1 {
+.article-page h1 {
   font-size: 2rem;
   margin-top:2rem;
   margin-bottom: 1.5rem;
