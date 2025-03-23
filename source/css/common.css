@@ -20,7 +20,7 @@ body {
   max-width: 800px;
   margin: 1rem auto;
   padding: 2rem;  /* = 32px */
-  background-color: #f5f5f5;  /* 白背景 */
+  background-color: #ffffff;  /* 白背景 */
   border-radius: 12px;
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
   box-sizing: border-box;
