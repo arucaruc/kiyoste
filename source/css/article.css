@@ -20,7 +20,7 @@
   border-left: 6px solid #0077cc;
   padding-left: 0.75rem;
   box-sizing: border-box;          /* ←サイズ制御のため追加 */
-  max-width: 100%;                 /* ←はみ出し防止 */
+  max-width: calc(100% - 0.75rem);                 /* ←はみ出し防止 */
   overflow-wrap: break-word;      /* ←改行対応（長いタイトル対策） */
 }
 
